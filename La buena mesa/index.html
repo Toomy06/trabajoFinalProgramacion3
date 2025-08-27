@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandito</title>
+    <link rel="icon" href="./image/P.png" type="image/png">
+</head>
+<body>
+    <header>
+    
+        <h1>Pandito</h1>
+        <p>Un gusto de casa</p>
+
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#Reservas">Reservar</a></li>
+                <li><a href="https://maps.app.goo.gl/PvuW824teRXaMLkJ8" target="_blank">Ubicacion</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <!-- Seccion menu -->
+        <Section id="menu">
+                <h2>Menu</h2>
+                <h3>Entradas</h3>
+                <article id="Entradas">
+                    <p>Picadita de la casa. para arrancar</p>
+                    <ul>
+                        <li>Jamon crudo</li>
+                        <li>Salame</li>
+                        <li>Aceitunas</li>
+                        <li>Quesos varios</li>
+                    </ul>
+                    <p>Duo de empanadas</p>
+                        <ul>
+                            <li>De carne</li>
+                            <li>Las mendocinas</li>
+                            <li>Salteñas</li>
+                        </ul>
+                    <p>Papas Fritas bien clasicas con mayo casera</p>
+                    <img src="./image/Comida1.png" alt="Picadita" width="250">
+                </article>
+                <h3>Principales</h3>
+                <article id="Principales">
+                    <p>Milanesa napo con ensalada</p>
+                        <ul>
+                            <li>Mixta</li>
+                            <li>Rusa</li>
+                            <li>Fritas</li>
+                            <li>Pure</li>
+                        </ul>
+                    <p>Bondiola de cerdo con Pure</p>
+                    <P>Ñoquis de papa con tuco</P>
+                    <img src="./image/Comida3.png" alt="milanesa con Rusa" width="220">
+                    <img src="./image/Comida2.png" alt="Ñoquis" width="250px">
+                </article>
+        </Section>
+        <!-- Seccion Nosotros -->
+        <hr>
+         <aside id="Nosotros">
+            <h2>Nosotros</h2>
+            <p>Pandito un bodegón argentino tradicional, donde el aroma a comidas caseras se mezcla con la calidez de un ambiente familiar. 
+                <br>Es un lugar donde se celebran encuentros, se comparten anécdotas y las historias familiares se convierten en parte del espíritu del lugar. 
+                <br>Con platos abundantes, sabores de siempre y una atmósfera sencilla pero acogedora, 
+                <br>Pandito es más que un restaurante: es un espacio de encuentro que honra la tradición y la unión en torno a la mesa.</p>
+        </aside>
+        <!-- Seccion reservas -->   
+        <hr>
+            <Section id="Reservas">
+                <h2>Reserva tu Mesa</h2>
+                <form >
+                    <fieldset>
+                        <legend>Datos de la reserva</legend>
+                        
+                        <label >Nombre:</label>
+                        <input type="texto" id="Nombre" name="Nombre" placeholder="Ej:Tomas" required><br><br>
+
+                        <label for="email">Correo electronico</label>
+                        <input type="text" id="Nombre" name="email" placeholder="Ej:Tomas@mail.com" required><br><br>
+
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="Nombre" name="email" placeholder=""><br><br>
+
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora" required><br><br>
+
+                        <label for="personas">Cantidad de personas</label>
+                        <input type="number" id="personas" name="personas" placeholder="Ej:2" required><br><br>
+
+                        <button>Enviar Reserva</button>
+                    </fieldset>
+                </form>
+            </Section>
+    </main>
+    <footer>
+        <p>&copy;2025 Pandito - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
